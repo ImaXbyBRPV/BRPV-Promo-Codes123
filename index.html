@@ -37,7 +37,7 @@ console.log("Check");
         code4: 'WAYTO1K'
     };
 
-    let economyCash = localStorage.getItem('economyCash')
+    let economyCash = parseInt(localStorage.getItem('economyCash'))
     document.getElementById("Economy").textContent = 'Economy Cash: ' + economyCash;
 
     var invalid1;
